@@ -525,7 +525,7 @@ a {
 
 .footer-contacts {
   width: 208px;
-  margin-right: 0;
+  margin-right: 80px;
 }
 
 .footer-contacts-list {
@@ -549,4 +549,43 @@ a {
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
   background-color: #31d0aa;
+}
+
+/* .footer-label {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+} */
+/* .footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 264px;
+} */
+
+.footer-input {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.footer-btn {
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--white);
 }
