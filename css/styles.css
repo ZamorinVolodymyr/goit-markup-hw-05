@@ -611,6 +611,10 @@ a {
   background: #404bbf;
 }
 
+.footer-btn .icon {
+  fill: ffffff;
+}
+
 .footer-input::placeholder {
   color: #aaaaaa;
 }
