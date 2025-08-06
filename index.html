@@ -479,17 +479,22 @@
         <div class="footer-subscribe">
           <p class="footer-soc-text">Subscribe</p>
           <form class="footer-form">
-            <label class="footer-label">
-              <input
-                class="footer-input"
-                type="text"
-                name="E-mail"
-                placeholder="E-mail"
-              />
-            </label>
+            <div class="form-field">
+              <label class="form-label" for="footer-email"></label>
+              <div class="input-wrapper">
+                <input
+                  class="footer-input"
+                  type="email"
+                  name="email"
+                  id="footer-email"
+                  placeholder="E-mail"
+                />
+              </div>
+            </div>
+
             <button class="footer-btn" type="submit">
               Subscribe
-              <svg class="icon" width="24" height="20">
+              <svg class="icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>

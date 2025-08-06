@@ -552,7 +552,6 @@ a {
 }
 
 .footer-label {
-  margin: 0;
 }
 
 .footer-subscribe {
@@ -566,6 +565,7 @@ a {
   gap: 24px;
   flex-wrap: wrap;
   max-width: 453px;
+  align-items: center;
 }
 
 .footer-input {
