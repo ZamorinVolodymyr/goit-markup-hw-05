@@ -704,5 +704,52 @@ a {
 
 .modal-input {
   display: block;
-  margin: 0px 24px 8px 24px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  border: 1px solid #2e2f42;
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px;
+}
+
+.field-name {
+  fill: #8e8f99;
+}
+
+.modal-form {
+  padding: 0 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.modal-form label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
+
+textarea {
+  resize: none;
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  border: 1px solid #2e2f42;
+  border-radius: 4px;
+  width: 100%;
+  padding: 8px 16px;
+}
+
+textarea::placeholder {
+  color: #2e2f42;
+  opacity: 0.4;
 }
