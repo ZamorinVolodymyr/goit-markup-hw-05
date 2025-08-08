@@ -589,6 +589,11 @@ a {
   fill: #ffffff;
 }
 
+.footer-input:hover,
+.footer-input:focus {
+  border-color: #404bbf;
+}
+
 .footer-btn {
   border-radius: 4px;
   padding: 8px 24px;
