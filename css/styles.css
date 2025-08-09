@@ -763,7 +763,6 @@ a {
 }
 
 .modal-form {
-  padding: 0 24px 24px 24px;
   display: flex;
   flex-direction: column;
 }
@@ -835,7 +834,7 @@ textarea::placeholder {
   border: none;
 }
 
-.visually-hidden:checked + .priv-label .box .chek-icon {
+.visually-hidden:checked + .priv-label .box .check-icon {
   fill: #f4f4fd;
 }
 
@@ -849,4 +848,8 @@ textarea::placeholder {
   margin-bottom: 24px;
   width: 360px;
   height: 16px;
+}
+
+#user-privacy:checked ~ .priv-label > .box {
+  fill: #f4f4fd;
 }
