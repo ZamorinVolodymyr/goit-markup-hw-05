@@ -482,17 +482,13 @@
           <p class="footer-soc-text">Subscribe</p>
           <form class="footer-form">
             <label class="form-label" for="footer-email"></label>
-
-            <div class="input-wrapper">
-              <input
-                class="footer-input"
-                type="email"
-                name="email"
-                id="footer-email"
-                placeholder="E-mail"
-              />
-            </div>
-
+            <input
+              class="footer-input"
+              type="email"
+              name="email"
+              id="footer-email"
+              placeholder="E-mail"
+            />
             <button class="footer-btn" type="submit">
               Subscribe
               <svg class="icon" width="24" height="24">
@@ -569,6 +565,13 @@
             ></textarea>
           </div>
           <div class="check-box">
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
+            />
             <label class="priv-label" for="user-privacy">
               <span class="box">
                 <svg class="chek-icon" width="10" height="8">
@@ -580,13 +583,6 @@
                 <a class="privacy-link" href="#">Privacy Policy</a>
               </span>
             </label>
-            <input
-              class="visually-hidden"
-              type="checkbox"
-              name="user-privacy"
-              value="true"
-              id="user-privacy"
-            />
           </div>
           <button class="button modal-btn" type="submit">Send</button>
         </form>
