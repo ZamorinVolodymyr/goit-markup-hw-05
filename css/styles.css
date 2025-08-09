@@ -841,7 +841,8 @@ textarea::placeholder {
 .privacy-link {
   line-height: 1.33;
   text-decoration: underline;
-  color: #4d5ae5;
+  text-decoration-skip-ink: none;
+  color: var(--iris);
 }
 
 .check-box {
